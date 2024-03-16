@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --primary-color: #10719F;
+    --secondary-color: #E9AF36;
+    --accent1-color: #E8E9F3;
+    --accent2-color: #5A360C;
+
+    --heading-font: 'Josefin Sans', sans-serif;
+    --paragraph-font: 'Nunito', sans-serif;
+
+    --nav-background-color: #E9AF36;
+    --nav-link-color: #000;
+    --nav-hover-link-color: #10719F;
+    --nav-hover-background-color: #EFC56C;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Class Selectors */
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 70px;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(0, 0, 0, .6);
+    color: var(--secondary-color);
+    margin: 0 50px;
+    padding: 20px;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 250px;
+    height: auto;
+}
