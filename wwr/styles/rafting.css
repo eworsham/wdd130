@@ -17,6 +17,36 @@
 
 * {
     box-sizing: border-box;
+    font-family: var(--paragraph-font);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    font-weight: 700;
 }
 
 body {
@@ -26,10 +56,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-p {
-    font-family: var(--paragraph-font);
 }
 
 a {
