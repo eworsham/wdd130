@@ -312,8 +312,7 @@ button {
 }
 
 .info-title {
-    /* text-align: right; */
-    padding-right: 1rem;
+    padding: 0 2rem;
 }
 
 .address {
