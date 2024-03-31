@@ -115,12 +115,20 @@ footer {
 }
 
 .social-media-icons {
-    grid-column: 2/3;
+    grid-column: 3/4;
     margin-left: 140px;
 }
 
 .social-media-icons img {
     margin: 5px;
+}
+
+.contact-us-wireframe {
+    grid-row: 1/2;
+    color: white;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-right: 4rem; 
 }
 
 /**************************************************** 
