@@ -111,6 +111,7 @@ footer {
     display: grid;
     justify-content: end;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .social-media-icons {
@@ -130,6 +131,11 @@ footer {
 
 .grid {
     display: grid;
+}
+
+.shadow {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .3);
+    border-radius: .5rem;
 }
 
 /**************************************************** 
@@ -325,6 +331,9 @@ button {
     grid-column: 1/6;
     grid-row: 2/3;
     display: grid;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+    margin-top: 2rem;
 }
 
 .employees h2 {
@@ -332,3 +341,13 @@ button {
     text-align: center;
 }
 
+.employees img {
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+}
+
+.employees figcaption {
+    font-size: 1.1rem;
+    padding: .5rem;
+}
