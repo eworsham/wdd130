@@ -123,7 +123,7 @@ footer {
     margin: 5px;
 }
 
-.contact-us-wireframe {
+.wireframe-link {
     grid-row: 1/2;
     color: white;
     text-decoration: underline;
@@ -242,6 +242,50 @@ footer {
 *           Rules for Trips page only
 *
 ****************************************************/
+
+/* Trips Section */
+
+.trips {
+    grid-column: 1/2;
+}
+
+.trips h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.trips figure {
+    grid-row: 2/3;
+    margin: 15px;
+    text-align: center;
+}
+
+.trips img {
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+/* Contact Us Section */
+.contact-us-bar {
+    grid-column: 2/3;
+    text-align: right;
+}
+
+.contact-us-bar a {
+    writing-mode: vertical-rl;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border-radius: .5rem;
+    padding: 100% 1rem;
+}
+
+.contact-us-bar a:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .3);
+    font-weight: 800;
+}
 
 /**************************************************** 
 *
