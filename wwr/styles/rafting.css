@@ -198,6 +198,7 @@ footer {
     grid-template-columns: 1fr 2fr 1fr;
     column-gap: 2rem;
     padding: 1rem 0;
+    text-align: center;
 }
 
 .info img {
@@ -268,6 +269,7 @@ footer {
     color: var(--secondary-color);
     margin: 0 50px;
     padding: 20px;
+    text-align: center;
 }
 
 .hero > img {
@@ -280,6 +282,7 @@ footer {
     float: right;
     width: 250px;
     height: auto;
+    margin-left: 1rem;
 }
 
 /* History Section */
@@ -287,10 +290,10 @@ footer {
 .history-section {
     display: grid;
     align-items: center;
+    text-align: center;
 }
 
 .history-section h2 {
-    text-align: center;
     grid-column: 2/3;
 }
 
